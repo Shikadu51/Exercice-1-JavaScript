@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Les impôts Zorglubiens</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width ,initial-scale-1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+     <div class="container">
+         <div class="row">
+            <h1>Bienvenue sur le site des Impôts Zorglubiens :</h1>
+             <div class="col-sm 3 mx-auto mt-5 text center">
+                <h2><div id="age-description" class="form-text">Devez vous payer l'impôt ?</div></h2>
+                 <div class="mb-3">
+                     <label for="age-saisi" class="form-label">Saisissez votre age :</label>
+                     <input type="number" class="form-control" id="age-saisi" aria-describedby="age-saisi">
+                 </div>
+                 <div class="mb-3">
+                     <label for="genre-saisi" class="form-label">Saisissez votre genre :</label>
+                     <select class="form-select" aria-label="Default select example" id="genre-saisi">
+                         <option value="H">Homme</option>
+                         <option value="F">Femme</option>
+                     </select>
+                 </div> 
+                 <button type="submit" id="bouton" class="btn btn primary mt-5 ,">Envoyer</button>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-sm-3 mx-auto mt-5 text-center">
+                 <div id="message"></div>
+             </div>
+         </div>
+     </div>
+    </body>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</html>
