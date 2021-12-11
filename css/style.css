@@ -4,6 +4,11 @@ body {
     font-size: x-large;
 }
 
+h1 {
+    font-style: italic;
+    color: grey;
+}
+
 .row {
     background-color: whitesmoke;
 }
